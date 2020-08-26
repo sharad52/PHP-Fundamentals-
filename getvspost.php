@@ -20,7 +20,7 @@
     </form>
 <!-- html form ends here -->
     <?php 
-        /*in get method the data sent over url but in post method data are directly sent to the body
+        /*in get method the data sent over url but in post method data are directly sent via body of Http
         the method of getting user data using "POST" method is shown below:
        */
       $userName = $_POST["name"];
