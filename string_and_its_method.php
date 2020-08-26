@@ -32,9 +32,24 @@
         //chop(var)-> removes whitespaces and other characters from right end of a string 
         $rawString = "Crash Course of php";
         echo chop($rawString,"of");
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
 
         //remaining methods can be used in same way
-        
+        //count_chars()->it returns all unique characters used in string
+
+        $result4 = count_chars($rawString,3);
+        echo $result4 ;
+        echo "<br>";
+        //here in count_chars funtion the first parameter is string variable to be checked  and second is int mode parameter.it ranges from 0-4 ,0 is default whereas 1 and 2 used for array and 3 and 4 for string .3 returns all the different character used and 4 returns unused characters.
+        //echo("string") is itself a string function
+         //implode("",$var)->this returns elements inside array
+
+        $nameArray= array('Shyam','Hemanta','Supreme','puja');
+        echo implode("",$nameArray);
+
+        // simillaryly other string methods can be used same way 
 
     
     
