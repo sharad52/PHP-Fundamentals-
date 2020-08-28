@@ -18,6 +18,9 @@
     echo $book1->author;
     echo "</br>";
     echo $book1->pages;
+//from this method we have to give arguments for every object like this 
+//this will make code lenthy and make code repetation so we will see how to use constructor to avoid this type of falut
+
 
 
 
